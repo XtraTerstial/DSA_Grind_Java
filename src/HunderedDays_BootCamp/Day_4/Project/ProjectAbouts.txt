@@ -1,0 +1,8 @@
+Build a system that:
+* Fetches users from database (we'll mock it).
+* Each User has roles (unique).
+
+We want to:
+* Remove inactive users
+* List all active users
+* Count users as per role
