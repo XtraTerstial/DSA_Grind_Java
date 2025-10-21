@@ -4,6 +4,16 @@ Topic 1 :- Functional Interface
 
 Topic 2:- Lambda Expression -> In java Lambda expression is used to provide implementation to functional Interface
 
-Topic 3:- Functional Interface Implementation (function interface)
+Topic 3:- Function<T,R> Interface Implementation (function interface) //in-built folder
+                       :- Represents a function that accepts an arguments and produces a result
 
 Topic 4:- Method Reference :: -> Updated Lambda
+
+In-Built functions of java
+Topic 5:- ByFunction<T,U,R> -> Represents a function that accepts two arguments and produces a result
+
+Topic 6:-Consumer<T> :-Represents a function that accepts a single arguments and returns no result.
+
+Topic 7:- BiConsumer :- Represents a function that accepts two single arguments and returns no result.
+
+Topic 8:- Predicate<T> -> Represents a function that accepts one single arguments and returns a Boolean.
