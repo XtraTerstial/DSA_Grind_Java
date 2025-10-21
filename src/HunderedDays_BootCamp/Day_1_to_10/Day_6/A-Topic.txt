@@ -23,3 +23,7 @@ Topic 9:- BiPredicate<T,U> -> Represents a function that accepts Two arguments a
 Topic 10:- Supplier<T> -> Represent a Supplier Result.
 
 Topic 11:- Streams --> It's like a Assembly line or Pipeline
+
+Topic 12:- Stream PipeLine
+
+Topic 13:- Intermediate Operations

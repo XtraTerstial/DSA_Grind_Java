@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_1_to_10.Day_6;
+package HunderedDays_BootCamp.Day_1_to_10.Day_6.Streams;
 
 import java.util.Arrays;
 import java.util.List;
