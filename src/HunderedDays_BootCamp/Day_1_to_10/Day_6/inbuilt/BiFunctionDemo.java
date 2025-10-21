@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_6.inbuilt;
+package HunderedDays_BootCamp.Day_1_to_10.Day_6.inbuilt;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -14,7 +14,11 @@ public class BiFunctionDemo {
     public static BiFunction<Integer,Integer,Integer> combineBiFunc = addBiFunc.andThen(multiplyBy2);
 
     void main(){
+
         System.out.println(addBiFunc.apply(3,5));
         System.out.println(subtractBiFunc.apply(3,5));
+
+        Function<Integer,Integer> multiplyBY2 = (a)-> a*2;
+        System.out.println(multiplyBY2.apply(10));
     }
 }

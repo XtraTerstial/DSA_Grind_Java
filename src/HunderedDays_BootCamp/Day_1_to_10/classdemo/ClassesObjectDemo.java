@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_3.classdemo;
+package HunderedDays_BootCamp.Day_1_to_10.classdemo;
 
 
 public class ClassesObjectDemo {

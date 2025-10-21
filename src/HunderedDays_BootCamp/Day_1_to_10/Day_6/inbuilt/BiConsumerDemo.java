@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_6.inbuilt;
+package HunderedDays_BootCamp.Day_1_to_10.Day_6.inbuilt;
 
 import java.util.function.BiConsumer;
 

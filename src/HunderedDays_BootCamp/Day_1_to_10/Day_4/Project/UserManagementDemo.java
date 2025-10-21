@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_4.Project;
+package HunderedDays_BootCamp.Day_1_to_10.Day_4.Project;
 
 import java.util.*;
 

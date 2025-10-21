@@ -1,6 +1,5 @@
-package HunderedDays_BootCamp.Day_6.inbuilt;
+package HunderedDays_BootCamp.Day_1_to_10.Day_6.inbuilt;
 
-import javax.swing.*;
 import java.util.function.Function;
 
 public class FunctionInterfaceDemo {

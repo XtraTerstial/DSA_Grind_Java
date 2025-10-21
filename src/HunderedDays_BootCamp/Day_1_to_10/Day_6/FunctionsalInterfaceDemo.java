@@ -1,6 +1,4 @@
-package HunderedDays_BootCamp.Day_6;
-
-import org.w3c.dom.ls.LSOutput;
+package HunderedDays_BootCamp.Day_1_to_10.Day_6;
 
 @FunctionalInterface
 interface BookAction{

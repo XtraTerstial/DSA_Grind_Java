@@ -1,4 +1,4 @@
-package HunderedDays_BootCamp.Day_5;
+package HunderedDays_BootCamp.Day_1_to_10.Day_5;
 
 public class JavaExceptionHandling {
     void main(){
