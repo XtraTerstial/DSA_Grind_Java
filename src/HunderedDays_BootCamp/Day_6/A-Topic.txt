@@ -1,0 +1,9 @@
+Functional Interfaces in Java
+
+Topic 1 :- Functional Interface
+
+Topic 2:- Lambda Expression -> In java Lambda expression is used to provide implementation to functional Interface
+
+Topic 3:- Functional Interface Implementation (function interface)
+
+Topic 4:- Method Reference :: -> Updated Lambda
