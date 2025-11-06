@@ -21,18 +21,21 @@ public class LinkedListCycle {
 
     //Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
     public ListNode detectCycle(ListNode head) {
+        if(head == null || head.next == null) return null;
         ListNode slow = head;
         ListNode fast = head;
-        while(fast!=null){
+        while(fast!=null) {
             slow = slow.next;
             fast = fast.next.next;
-            if(slow == fast) break;
+            if (slow == fast) {
+                ListNode temp = head;
+                while (temp != slow) {
+                    temp = temp.next;
+                    slow = slow.next;
+                }
+                return slow; // return temp; (can use any)
+            }
         }
-        ListNode temp = head;
-        while(temp != slow){
-            temp = temp.next;
-            slow = slow.next;
-        }
-        return slow; // return temp; (can use any)
+        return null;
     }
 }
