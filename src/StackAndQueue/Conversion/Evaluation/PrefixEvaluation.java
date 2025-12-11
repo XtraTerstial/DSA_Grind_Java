@@ -1,10 +1,11 @@
 package StackAndQueue.Conversion.Evaluation;
-import java.util.*;
-public class PostfixEvaluation {
+
+import java.util.Stack;
+public class PrefixEvaluation {
     static void main() {
-        String str = "953+4*6/-";
+        String str = "-9/*+5346";
         Stack<Integer> val = new Stack<>();
-        for(int i=0;i<str.length();i++) {
+        for(int i=str.length()-1;i>=0;i--) {
             char ch = str.charAt(i);
             //character to integer conversion
             int ascii = (int) ch;
@@ -12,8 +13,8 @@ public class PostfixEvaluation {
             if (ascii >= 48 && ascii <= 57)
                 val.push(ascii - 48);
             else {
-                int v2 = val.pop();
                 int v1 = val.pop();
+                int v2 = val.pop();
                 if (ch == '+') val.push(v1 + v2);
                 if (ch == '-') val.push(v1 - v2);
                 if (ch == '*') val.push(v1 * v2);
