@@ -1,4 +1,4 @@
-package DelloiteNLA;
+package CodingQuestions.Maths;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package DelloiteNLA;
+package CodingQuestions.Maths;
 
 public class HCF_GCD {
     public static int gcd(int a, int b){ //T.C -> O(max(a,b))
@@ -24,6 +24,11 @@ public class HCF_GCD {
     }
     public static void main(String args[]){
         int a = 12, b= 18;
+        if(a>b){
+            int temp = b;
+            b = a;
+            a = temp;
+        }
         System.out.println("HCF/GCD of "+a+" & "+b+" is = "+gcd2(a,b));
     }
 }

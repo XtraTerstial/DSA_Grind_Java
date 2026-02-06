@@ -1,4 +1,4 @@
-package DelloiteNLA;
+package CodingQuestions.Maths;
 
 import java.math.BigInteger;
 import java.util.Scanner;
