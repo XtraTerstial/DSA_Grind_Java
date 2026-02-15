@@ -144,7 +144,6 @@ class SLL{
             current.next = current.next.next;
         }
 
-        // NOTE: Your original 'delete' logic was incorrect for SLLs.
         // It copied the next node's value and skipped the next node, which doesn't work
         // for deleting the tail, and is not the standard way to delete a node.
         size--;

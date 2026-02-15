@@ -27,10 +27,17 @@ public class Q9_Find_UniqueAndDuplicates {
         }
         return ans;
     }
+    public static List<Integer> removeDuplicates(int[] nums) {
+        Set<Integer> set = new LinkedHashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        return new ArrayList<>(set);
+    }
     public static void main(String[] args) {
-        int[] arr = {4,3,2,7,8,2,3,1};
+        int[] arr = {4,3,2,7,8,2,3,1,3,4,5,6,7,8,9};
         ArrayList<Integer> ans = (ArrayList<Integer>) countUnique(arr);
-        System.out.println(ans);
+//        System.out.println(ans);
         ArrayList<Integer> ans2 = (ArrayList<Integer>) findDuplicates(arr);
         System.out.println(ans2);
      }

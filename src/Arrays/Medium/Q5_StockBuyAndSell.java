@@ -20,6 +20,22 @@ public class Q5_StockBuyAndSell {
         }
         return profit;
     }
+    static int stockBuyAndSell4(int[] stocks, int t){
+        int n = stocks.length;
+        int profit = 0;
+        int i = 1;
+            while(t>0){
+                while(i<n) {
+                    if (stocks[i] > stocks[i - 1]) {
+                        profit += stocks[i] - stocks[i - 1];
+                    }
+                    i++;
+                }
+                t--;
+            }
+
+        return profit;
+    }
     public static void main(String[] args) {
         int[] arr = {7,1,5,3,6,4};
         //Buy on Day 1 and sell at Day 6 -> profit = 6-1 = 5
@@ -33,5 +49,6 @@ public class Q5_StockBuyAndSell {
         int[] arr2 = {3,2,6,5,0,3};
         //no of transaction allowed
         int transactions = 2;
+        System.out.println(stockBuyAndSell4(arr2, transactions));
     }
 }

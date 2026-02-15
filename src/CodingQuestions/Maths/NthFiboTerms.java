@@ -16,7 +16,7 @@ public class NthFiboTerms {
     static int nthFibonacci(int n){
         if(n<=1) return n;
         int a = 0, b = 1;
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             int c = a + b;
             a = b;
             b = c;
@@ -25,7 +25,7 @@ public class NthFiboTerms {
     }
     public static void main(String[] args) {
 
-        System.out.println(nthFibonacci(8));
+        System.out.println(nthFibonacci(9));
 
     }
 }
