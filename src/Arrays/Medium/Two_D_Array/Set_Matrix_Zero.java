@@ -3,8 +3,8 @@ package Arrays.Medium.Two_D_Array;
 public class Set_Matrix_Zero {
     static void optimal(int[][] arr){
         int n = arr.length;
-        int m = arr.length;
-         int[] r=new int[n];
+        int m = arr[0].length;
+         int[] r = new int[n];
          int[] c = new int[m];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
