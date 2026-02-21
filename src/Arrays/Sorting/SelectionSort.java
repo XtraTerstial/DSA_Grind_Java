@@ -14,7 +14,6 @@ public class SelectionSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     static void main() {
         int[] arr = { 5, 4, 3, 2, 1, 7, 8, 6, 5 };
         int n = arr.length;
@@ -30,6 +29,5 @@ public class SelectionSort {
             swap(arr, i, minIndex);
         }
         print(arr);
-
     }
 }

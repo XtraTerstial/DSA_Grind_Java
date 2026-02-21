@@ -27,7 +27,7 @@ public class Q3_InPlace_Reverse {
         return str.toString();
     }
     public static void main(String[] args) {
-        String s = "Let's take LeetCode contest";
+        String s = "hi i am devbrat";
         System.out.println(s);
         String str = reverseInPlace(s);
         System.out.println("After Reverse :>");

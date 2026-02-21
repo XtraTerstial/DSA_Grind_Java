@@ -38,7 +38,7 @@ public class BubbleSort {
                     flag = false;
                 }
             }
-            if(flag == true)break;
+            if(flag)break;
         }
         print(arr);
     }
