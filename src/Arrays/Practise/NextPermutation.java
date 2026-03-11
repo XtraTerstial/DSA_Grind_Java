@@ -29,9 +29,32 @@ public class NextPermutation {
         for (int i = n-1; i > index ; i--) {
             if(arr[i] > arr[index]){
                 swap(arr,i,index);
+                break;
             }
         }
         reverse(arr,index+1,n-1);
+    }
+    static void nextPermutation2(int[] arr){
+        int index = -1, n = arr.length;
+
+        for(int i=n-2 ; i>=0; i--) {
+            if (arr[i] < arr[i + 1]) {
+                index = i;
+                break;
+            }
+        }
+        if(index == -1){
+            reverse(arr, 0, n-1);
+            return;
+        }
+        for(int i=n-1; i>=0;i--){
+            if(arr[i] > arr[index]){
+                swap(arr, i, index);
+                break;
+            }
+        }
+        reverse(arr, index+1, n-1);
+
     }
     static void main() {
         int[] arr = {2,1,5,4,3,0,0};

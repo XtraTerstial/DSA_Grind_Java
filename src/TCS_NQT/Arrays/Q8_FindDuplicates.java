@@ -36,7 +36,7 @@ public class Q8_FindDuplicates {
         return freq;
     }
     static void main() {
-        int[] arr = {2, 3, 1, 6, 3, 6, 1};
+        int[] arr = {2, 3, 100, 6, 3, 6, 100};
         ArrayList<Integer> ans = dupes(arr);
         System.out.println(ans);
     }
