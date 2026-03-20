@@ -1,7 +1,7 @@
-package Strings.Easy;
+package Strings.Medium;
 // hi i m devbrat
 //Output -> ih i m tarbved
-public class Q3_InPlace_Reverse {
+public class Q8_InPlace_Reverse {
     static void reverse(int i,int j,StringBuilder s){
         while(i<=j){
             char temp = s.charAt(i);
@@ -26,7 +26,7 @@ public class Q3_InPlace_Reverse {
         reverse(i, j-1, str);
         return str.toString();
     }
-    static void main() {
+    public static void main(String[] args) {
         String s = "hi i am devbrat";
         System.out.println(s);
         String str = reverseInPlace(s);

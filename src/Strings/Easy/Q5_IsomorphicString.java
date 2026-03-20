@@ -1,5 +1,9 @@
 package Strings.Easy;
 import java.util.*;
+//Example (True): s = "egg", t = "add" (
+//Example (False): s = "foo", t = "bar" (
+
+
 public class Q5_IsomorphicString {
     static boolean checkIsomorphic(String s, String t){
         if(s.length()!=t.length()) return false;
